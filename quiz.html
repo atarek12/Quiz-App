@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title">Quiz Math</div>
+      <div class="header">
+        <span>Name: <span class="name"></span></span>
+        <span>ID: <span class="ID"></span></span>
+        <span class="countdown"></span>
+      </div>
+      <div class="question-box">
+        <div class="question"></div>
+        <div class="answers-box">
+          <div class="answer">
+            <label class="answer-label" for="answer1">
+              <input class="radio" type="radio" id="answer1" name="ans" />
+              <span></span>
+            </label>
+          </div>
+          <div class="answer">
+            <label class="answer-label" for="answer2"
+              ><input class="radio" type="radio" id="answer2" name="ans" />
+              <span></span>
+            </label>
+          </div>
+          <div class="answer">
+            <label class="answer-label" for="answer3"
+              ><input class="radio" type="radio" id="answer3" name="ans" />
+              <span></span>
+            </label>
+          </div>
+          <div class="answer">
+            <label class="answer-label" for="answer4"
+              ><input class="radio" type="radio" id="answer4" name="ans" />
+              <span></span>
+            </label>
+          </div>
+        </div>
+        <div class="result"></div>
+      </div>
+      <div class="nav-box">
+        <span class="btn prev"
+          ><i class="fas fa-arrow-alt-circle-left"></i
+        ></span>
+        <span class="question-count">
+          <span class="current-question">1</span>
+          <span>/</span>
+          <span class="total-question">5</span>
+        </span>
+        <span class="btn next"
+          ><i class="fas fa-arrow-alt-circle-right"></i
+        ></span>
+      </div>
+      <input type="submit" value="Sumbit My Answers" class="submit" />
+    </div>
+
+    <!-- <script src="html_questions.json"></script> -->
+    <script src="JS/sweetalert2.all.min.js"></script>
+    <script src="JS/main.js"></script>
+  </body>
+</html>
