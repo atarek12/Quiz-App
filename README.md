@@ -1,6 +1,8 @@
 # Quiz-App
 An application used for online exams
 
+visit this [link](https://atarek12.github.io/Quiz-App/) and test the application
+
 ![App Design](https://raw.githubusercontent.com/atarek12/Quiz-App/master/quizApp.PNG "App Design")
 ___
 ***
